@@ -6,9 +6,6 @@ load_dotenv()
 
 groq_aoi_key = os.getenv('GROQ_API_KEY')
 
-responses = []
-ranked_response = []
-
 
 def read_csv(path):
     try:
