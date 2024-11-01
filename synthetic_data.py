@@ -1,11 +1,15 @@
 import os
 from groq import Groq
 from dotenv import load_dotenv
+import cohere
+import pandas as pd
+from datetime import datetime, timedelta
+import random
 
 load_dotenv()
 
-groq_aoi_key = os.getenv('GROQ_API_KEY')
-
+groq_api_key = os.getenv('GROQ_API_KEY')
+cohere_api_key = os.getenv('COHERE_API_KEY')
 
 def read_csv(path):
     try:
@@ -89,7 +93,7 @@ model = 'llama-3.2-11b-text-preview'
 
 
 def data_generation(prompt, model):
-    groq = Groq(api_key=groq_aoi_key)
+    groq = Groq(api_key=groq_api_key)
     response = groq.chat.completions.create(
         messages=[
             {
@@ -109,9 +113,109 @@ def data_generation(prompt, model):
 
     return response.choices[0].message.content
 
+def generate_mock_data(sample_size: int = 100, output_path: str = './output/mock_data.csv') -> None:
+    """
+    Generate mock healthcare data and save it to a CSV file.
+
+    Args:
+        sample_size (int): Number of records to generate.
+        output_path (str): Path where the CSV file will be saved.
+    """
+    
+    distributions = {
+        'gender': {'Male': 0.49, 'Female': 0.51},
+        'blood_type': {
+            'O+': 0.38, 'A+': 0.34, 'B+': 0.09, 'AB+': 0.03,
+            'O-': 0.07, 'A-': 0.06, 'B-': 0.02, 'AB-': 0.01
+        },
+        'medical_conditions': {
+            'None': 0.4, 'Hypertension': 0.2, 'Diabetes': 0.15,
+            'Asthma': 0.1, 'Heart Disease': 0.08, 'Arthritis': 0.07
+        },
+        'age_groups': {
+            '18-30': 0.2, '31-50': 0.35, '51-70': 0.3, '71-90': 0.15
+        }
+    }
+    
+    mock_data = []
+    try:
+        for i in range(sample_size):
+            # Generate age based on age group distribution
+            age_group = random.choices(
+                list(distributions['age_groups'].keys()),
+                list(distributions['age_groups'].values())
+            )[0]
+            min_age, max_age = map(int, age_group.split('-'))
+            age = random.randint(min_age, max_age)
+            
+            record = {
+                'PatientID': f'P{i+1000:04d}',
+                'Gender': random.choices(
+                    list(distributions['gender'].keys()),
+                    list(distributions['gender'].values())
+                )[0],
+                'Age': age,
+                'BloodType': random.choices(
+                    list(distributions['blood_type'].keys()),
+                    list(distributions['blood_type'].values())
+                )[0],
+                'MedicalCondition': random.choices(
+                    list(distributions['medical_conditions'].keys()),
+                    list(distributions['medical_conditions'].values())
+                )[0],
+                'LastCheckup': (
+                    datetime.now() - timedelta(days=random.randint(0, 365))
+                ).strftime('%Y-%m-%d'),
+                'BMI': round(random.uniform(18.5, 35.0), 1),
+                'BloodPressure': f"{random.randint(90, 140)}/{random.randint(60, 90)}"
+            }
+            mock_data.append(record)
+        
+        df_mock = pd.DataFrame(mock_data)
+        
+        df_mock.to_csv(output_path, index=False)
+        print(f"Mock data successfully saved to {output_path}")
+        
+    except Exception as e:
+        raise Exception(f"Error generating mock data: {str(e)}")
+
+def rerank_response():
+    real_data = """
+        Bobby JacksOn	30	Male	B-	Cancer	1/31/2024	Matthew Smith	Sons and Miller	Blue Cross	18856.28131	328	Urgent	2/2/2024	Paracetamol	Normal
+        LesLie TErRy	62	Male	A+	Obesity	8/20/2019	Samantha Davies	Kim Inc	Medicare	33643.32729	265	Emergency	8/26/2019	Ibuprofen	Inconclusive
+        DaNnY sMitH	76	Female	A-	Obesity	9/22/2022	Tiffany Mitchell	Cook PLC	Aetna	27955.09608	205	Emergency	10/7/2022	Aspirin	Normal
+    """
+    
+    mock_data = """"
+        P1000	Male	19	A-	None	2024-07-16	29.2	101/88
+        P1001	Male	70	B+	Asthma	2024-08-07	29.2	134/71
+        P1002	Female	46	AB+	None	2023-11-13	23.5	109/68
+    """
+
+    synthetic_data = """
+        Elijah Reed	59	Female	O-	Hypertension	2/5/2021	Rebecca Torres	Johnson-Fletcher	Aetna	27865.33052	425	Emergency	2/15/2021	Simvastatin	Inconclusive
+        Cody Morris	11	Male	A+	Diabetes	1/24/2024	Thomas Martin	 "Hernandez-Rogers and Vang"	 "UnitedHealthcare"	51214.41121	142	Urgent	2/10/2024	Paracetamol	Abnormal
+        Aileen Carroll	52	Female	AB-	Obesity	12/26/2023	Lisa Castillo	 "Smith-Neal and Larsen"	 "Cigna"	18424.49454	465	Elective	1/3/2024	Aspirin	Normal
+    """
+
+    doc = [mock_data, synthetic_data]
+
+    cohere_obj = cohere.ClientV2(cohere_api_key)
+    cohere_result = cohere_obj.rerank(
+        model='rerank-english-v3.0',
+        query=real_data,
+        documents=doc,
+        top_n=3
+
+    )
+    return cohere_result
+
 
 def main():
     result = data_generation(prompt, model=model)
+    print(result)
+    generate_mock_data()
+    result = rerank_response()
     print(result)
 
 

@@ -1,125 +1,147 @@
 <synthetic_data_csv>
-"Name","Age","Gender","Blood Type","Medical Condition","Date of Admission","Doctor","Hospital","Insurance Provider","Billing Amount","Room Number","Admission Type","Discharge Date","Medication","Test Results"
-"Elijah Reed",59,"Female","O-","Hypertension","2/5/2021","Rebecca Torres","Johnson-Fletcher","Aetna",27865.33052,425,"Emergency","2/15/2021","Simvastatin","Inconclusive"
-"Cody Morris",11,"Male","A+","Diabetes","1/24/2024","Thomas Martin", "Hernandez-Rogers and Vang", "UnitedHealthcare", 51214.41121,142,"Urgent","2/10/2024","Paracetamol","Abnormal"
-"Aileen Carroll",52,"Female","AB-","Obesity","12/26/2023","Lisa Castillo", "Smith-Neal and Larsen", "Cigna", 18424.49454,465,"Elective","1/3/2024","Aspirin","Normal"
-"Lorena Butler",55,"Male","A-","Asthma","8/30/2020","Janet Wallace", "Hernandez-Rodriguez and Adams", "Medicare", 46538.83325,253,"Urgent","9/14/2020","Ibuprofen","Inconclusive"
-"Albert White",42,"Female","O+", "Cancer","11/1/2019","Karen Simpson","Cook PLC", "UnitedHealthcare", 21981.64687,456,"Emergency","11/21/2019","Penicillin","Abnormal"
-"Marcy Martin",76,"Male","AB+", "Hypertension","4/24/2022","Denise Wells", "Powell-Robinson and Valdez", "Blue Cross", 47505.15943,195,"Urgent","5/11/2022","Lipitor","Normal"
-"Adam Brown",48,"Female","A+", "Asthma","10/31/2023","Betty Holmes","Rivera-Gutierrez", "Cigna", 34236.51792,463,"Elective","11/24/2023","Ibuprofen","Inconclusive"
-"Ashley Hall",23,Male,"O-","Diabetes","9/26/2024","Scott Jenkins", "Schaefer-Porter", "UnitedHealthcare", 49361.71851,136,"Emergency","10/16/2024","Simvastatin","Inconclusive"
-"Richard Davis",70,Female,"AB+","Cancer","3/29/2022","Jane Rodriguez","Johnson-Fletcher","Aetna", 18364.93937,272,"Urgent","4/18/2022","Paracetamol","Normal"
-"Raymond Williams",53, Male,"A+","Hypertension","6/29/2023","Lisa Nelson", "Hernandez-Rogers and Vang", "Blue Cross", 43869.62441,354,"Emergency","7/26/2023","Lipitor","Normal"
-"Frieda Adams",61, Female,"O-","Asthma","1/15/2022", "Rebecca Walker",  "Kim Inc",  "UnitedHealthcare", 45057.85951,418,"Elective","2/1/2022","Aspirin","Inconclusive"
-"Sophia Allen",29,Male,"AB+","Obesity","8/20/2022","Janet Martin",  "Powell-Robinson and Valdez", "Cigna", 26613.41339,211,"Urgent","9/11/2022","Ibuprofen","Abnormal"
-"Helen Brooks",41,Female,"A-","Diabetes", "7/16/2023","Kathleen Hill","Rivera-Gutierrez", "Medicare", 38243.72592,289,"Emergency","8/6/2023","Simvastatin","Normal"
-"Glen Harris",79, Male,"AB-","Cancer","11/28/2022","Samantha Brooks","Cook PLC", "UnitedHealthcare", 49290.13603,450,"Urgent","12/29/2022","Lipitor","Inconclusive"
-"Denise Jackson",59,Female,"A+","Hypertension","5/31/2024", "Thomas Garcia",  "Hernandez-Rodriguez and Adams",  "Cigna", 46628.53594,395,"Elective","6/16/2024","Aspirin","Normal"
-"Alan Russell",51,Male,"O+", "Obesity","10/19/2021","Tina Jenkins", "Hernandez-Rogers and Vang", "Aetna", 45000.49294,435,"Urgent","11/15/2021","Ibuprofen","Abnormal"
-"Aisha Lopez",71,Female,"AB+", "Asthma","12/31/2021","John Wilson", "Schaefer-Porter", "Medicare", 49462.15771,295,"Emergency","1/26/2022","Paracetamol","Normal"
-"Melissa Turner",50,Male,"A-","Diabetes","8/26/2022","Judith Brooks", "Kim Inc", "Cigna", 28854.16163,137,"Urgent","9/5/2022","Simvastatin","Inconclusive"
-"Lisa Taylor",75,Female,"O-","Cancer","5/19/2023","Carla Sanders", "Rivera-Gutierrez", "UnitedHealthcare", 37455.81325,233,"Emergency","6/4/2023","Ibuprofen","Normal"
-"Amy Wilson",29,Female,"AB+","Hypertension","3/11/2024","Pamela Lewis", "Powell-Robinson and Valdez", "Aetna", 48138.24652,443,"Elective","4/4/2024","Lipitor","Abnormal"
-"Dennis Thompson",68,Male,"A+","Obesity","2/17/2023","Debra Powell", "Hernandez-Rodriguez and Adams", "Cigna", 18977.34179,181,"Urgent","3/21/2023","Aspirin","Inconclusive"
-"Rebecca White",63,Female,"O+", "Diabetes","9/25/2021","Nancy Patel", "Johnson-Fletcher", "UnitedHealthcare", 41112.11343,364,"Emergency","10/21/2021","Penicillin","Normal"
-"Joseph Hall",41, Male,"AB-","Asthma","11/21/2022","Kim Johnson", "Cook PLC", "Medicare", 34957.11597,236,"Urgent","12/16/2022","Simvastatin","Abnormal"
-"Julia Mitchell",44,Female,"A-","Cancer","6/24/2024","Emily Brooks", "Hernandez-Rogers and Vang", "Aetna", 48620.44482,387,"Elective","7/24/2024","Lipitor","Inconclusive"
-"Dorothy Martin",68,Male,"O+","Hypertension","12/8/2022","Heather Brown", "Powell-Robinson and Valdez", "Cigna", 46145.14548,463,"Urgent","1/6/2023","Ibuprofen","Normal"
-"Debra Henderson",58,Female,"AB+", "Obesity","10/9/2022","Virginia Martin", "Rivera-Gutierrez", "UnitedHealthcare", 43713.93455,222,"Emergency","11/5/2022","Paracetamol","Abnormal"
-"Theresa Davis",80,Male,"A+","Asthma","4/22/2024","Susan Miller", "Schaefer-Porter", "Medicare", 44582.84114,429,"Urgent","5/20/2024","Aspirin","Normal"
-"Aisha Hernandez",46,Female,"O-","Cancer","9/7/2023","Diane Williams", "Hernandez-Rodriguez and Adams", "Aetna", 29175.23581,291,"Elective","10/25/2023","Ibuprofen","Inconclusive"
-"Norma Campbell",78,Male,"AB-", "Hypertension","7/26/2024", "Mary Scott",  "Kim Inc",  "Cigna", 48721.56317,159,"Emergency","8/24/2024","Lipitor","Abnormal"
-"Lisa Edwards",45,Female,"A+","Diabetes","3/18/2023","Laura Sanchez", "Johnson-Fletcher", "Medicare", 44540.11141,455,"Urgent","4/28/2023","Paracetamol","Normal"
-"Karen Foster",38,Male,"AB+","Asthma","10/21/2023","Debra Fisher", "Powell-Robinson and Valdez", "UnitedHealthcare", 42195.86455,243,"Emergency","11/20/2023","Simvastatin","Inconclusive"
-"Cassie Reed",35,Female,"O-","Obesity","12/6/2023","Margaret Harrison", "Hernandez-Rogers and Vang", "Cigna", 44445.34267,467,"Urgent","1/30/2024","Aspirin","Abnormal"
-"Dennis Brooks",22,Male,"A-","Cancer","8/26/2023","Shirley Hunter", "Rivera-Gutierrez", "Aetna", 18618.38471,186,"Elective","9/26/2023","Ibuprofen","Normal"
-"Betty Douglas",62,Female,"AB+","Hypertension","11/14/2022","Janine Lee", "Schaefer-Porter", "UnitedHealthcare", 36422.13627,268,"Emergency","12/9/2022","Lipitor","Inconclusive"
-"Cynthia Chen",73,Male,"O+", "Diabetes","1/17/2023", "Emily Reed",  "Johnson-Fletcher", "Medicare", 46575.94585,439,"Urgent","2/19/2023","Paracetamol","Abnormal"
-"Candace Taylor",49,Female,"A-","Asthma","6/16/2022","Renee Boyd", "Hernandez-Rogers and Vang", "Cigna", 38195.21931,219,"Emergency","7/6/2022","Simvastatin","Normal"
-"Melissa Smith",35,Female,"AB-","Obesity","12/22/2024", "Sonya Hall",  "Powell-Robinson and Valdez", "UnitedHealthcare", 48859.15513,178,"Urgent","1/22/2025","Aspirin","Normal"
-"Bonnie Butler",34,Male,"O+","Cancer","5/25/2024","Cynthia Jackson", "Schaefer-Porter", "Aetna", 38251.41965,240,"Urgent","6/22/2024","Ibuprofen","Inconclusive"
-"Shirley Brooks",42,Female,"A+", "Hypertension","10/3/2024", "Cynthia Morris",  "Kim Inc",  "Medicare", 28989.53367,369, "Elective","11/18/2024","Lipitor","Abnormal"
-"Rose Jackson",81,Male,"AB+", "Diabetes","6/23/2023","Phyllis White", "Hernandez-Rogers and Vang", "UnitedHealthcare", 38489.11873,422,"Emergency","7/28/2023","Paracetamol","Inconclusive"
-"Doris Reed",56,Female,"O-", "Obesity","12/1/2022","Donna Gibson", "Powell-Robinson and Valdez", "Aetna", 29774.23592,336,"Urgent","1/3/2023","Simvastatin","Abnormal"
-"Lynn Taylor",40,Male,"A+", "Asthma","1/23/2023","Cathy Price", "Rivera-Gutierrez", "Medicare", 44191.83509,426,"Emergency","2/18/2023","Ibuprofen","Normal"
-"Gladys Harris",67,Female,"AB+","Cancer","9/7/2022", "Sarah Sanchez",  "Schaefer-Porter", "UnitedHealthcare", 45510.13883,154,"Urgent","10/29/2022","Aspirin","Inconclusive"
-"Dorthy Brown",39,Male,"O-","Hypertension","6/10/2022","Tanya Wilson", "Hernandez-Rodriguez and Adams", "Cigna", 29555.24262,306,"Emergency","7/31/2022","Lipitor","Abnormal"
-"Carrie Lewis",65,Female,"A-", "Obesity","4/10/2023", "Maria Jordan",  "Johnson-Fletcher", "Aetna", 46835.23436,434,"Urgent","5/5/2023","Ibuprofen","Normal"
-"Tracy Warren",51, Male,"AB+", "Diabetes","12/14/2022","Lucy Hall", "Powell-Robinson and Valdez", "UnitedHealthcare", 39190.13845,402,"Urgent","1/16/2023","Paracetamol","Inconclusive"
-"Florence Stewart",30,Female,"A+","Cancer","11/28/2022", "Vivian Martinez", "Schaefer-Porter", "Medicare", 41423.23407,215,"Emergency","12/26/2022","Aspirin","Abnormal"
-"Mary Harrison",47, Male,"O-","Asthma","7/2/2021","Angela Phillips", "Hernandez-Rogers and Vang", "Cigna", 44095.44147,312,"Urgent","8/11/2021","Simvastatin","Normal"
-"Cathy Johnson",70,Female,"AB+", "Hypertension","2/23/2022","Kim Sims", "Powell-Robinson and Valdez", "UnitedHealthcare", 35153.23186,325,"Emergency","3/23/2022","Lipitor","Inconclusive"
-"Beth Gray",66,Male,"O+", "Obesity","8/13/2023", "Elizabeth Jones", "Johnson-Fletcher", "Aetna", 41225.42362,443,"Urgent","9/19/2023","Ibuprofen","Abnormal"
-"Frank Lewis",54,Female,"A-","Diabetes","6/24/2024","Melissa Brooks", "Schaefer-Porter", "Medicare", 33546.35588,374,"Elective","7/24/2024","Paracetamol","Normal"
-"Danial Anderson",28,Male,"AB+","Asthma","5/31/2024","Diane Jenkins", "Kim Inc", "UnitedHealthcare", 43432.46338,446,"Emergency","6/26/2024","Aspirin","Inconclusive"
-"Lena Walker",48,Female,"O-","Cancer","9/26/2023", "Roxanne Bates", "Hernandez-Rogers and Vang", "Aetna", 39834.53897,361,"Urgent","10/28/2023","Lipitor","Normal"
-"Stephanie Hughes",38,Male,"A+", "Hypertension","12/4/2023","Abigail Thompson", "Powell-Robinson and Valdez", "Cigna", 42884.11131,231,"Emergency","1/29/2024","Paracetamol","Abnormal"
-"Joan Rodriguez",58,Female,"AB-","Obesity","2/9/2024", "Tiffany Harris",  "Schaefer-Porter", "UnitedHealthcare", 45621.14753,208,"Urgent","3/21/2024","Simvastatin","Inconclusive"
-"Tara Johnson",54,Male,"O+","Diabetes","3/22/2024", "Lisa Allen",  "Hernandez-Rodriguez and Adams", "Medicare", 41668.25317,444,"Emergency","4/18/2024","Ibuprofen","Normal"
-"Christina Brooks",56,Female,"A-", "Asthma","4/10/2024","Debra Brooks", "Johnson-Fletcher", "Cigna", 43364.44926,421,"Elective","5/7/2024","Lipitor","Abnormal"
-"Kelly Perry",49,Male,"AB+", "Cancer","10/1/2024", "Tammy Sanchez", "Rivera-Gutierrez", "Aetna", 37703.11768,379,"Urgent","11/27/2024","Aspirin","Normal"
-"Diane Carter",64,Female,"O-", "Hypertension","8/19/2023","Shirley Russell", "Powell-Robinson and Valdez", "UnitedHealthcare", 39471.12172,305,"Emergency","9/17/2023","Ibuprofen","Inconclusive"
-"Helen Patel",73,Male,"A+", "Obesity","5/21/2024","Stephanie Martin", "Hernandez-Rogers and Vang", "Cigna", 43832.41676,217,"Urgent","6/19/2024","Paracetamol","Normal"
-"Dominique Young",41,Female,"AB-", "Diabetes","2/26/2024", "Jessica Bailey", "Schaefer-Porter", "Aetna", 37423.53305,465,"Emergency","3/29/2024","Lipitor","Abnormal"
-"Jean Andrews",53, Male,"O+","Asthma","8/12/2023", "Shirley Brooks", "Kim Inc", "Medicare", 35376.46384,391,"Elective","9/18/2023","Simvastatin","Inconclusive"
-"Loretta Morris",70,Female,"A-","Cancer","7/28/2023","Kimberly Henderson", "Johnson-Fletcher", "UnitedHealthcare", 42433.35569,268,"Urgent","8/24/2023","Aspirin","Normal"
-"Sandra Walker",50,Male,"AB+", "Hypertension","4/19/2024", "Loretta Foster", "Powell-Robinson and Valdez", "Cigna", 43437.43329,463,"Emergency","5/26/2024","Ibuprofen","Inconclusive"
-"Eugenia Wright",58,Female,"O+","Obesity","9/27/2024", "Amy Wilson", "Rivera-Gutierrez", "Aetna", 36256.31113,235,"Urgent","11/3/2024","Paracetamol","Abnormal"
-"Hazel Kelly",56,Male,"A-", "Diabetes","6/24/2024", "James Bell",  "Schaefer-Porter", "Medicare", 31636.41572,419, "Urgent","7/26/2024","Lipitor","Inconclusive"
-"Darla Hubbard",41,Female,"AB+", "Asthma","8/27/2024", "Leanne Jenkins",  "Kim Inc",  "Cigna", 44466.53358,439,"Emergency","9/25/2024","Simvastatin","Normal"
-"Angelica Hawkins",31,Male,"O-", "Cancer","12/13/2023", "Kristen Sanchez", "Powell-Robinson and Valdez", "UnitedHealthcare", 38160.11555,444,"Urgent","1/15/2024","Ibuprofen","Abnormal"
-"Gladys Jenkins",36,Female,"A-","Hypertension","4/18/2024","Kari Garcia", "Hernandez-Rogers and Vang", "Aetna", 46376.15149,436,"Urgent","5/18/2024","Lipitor","Normal"
-"Hazel Cole",47,Male,"AB-", "Obesity","9/4/2023","Tammy Allen", "Johnson-Fletcher", "Cigna", 37531.54254,413,"Elective","10/9/2023","Aspirin","Inconclusive"
-"Nora Pierce",71,Female,"O+","Diabetes","2/1/2024", "Lisa Jackson", "Schaefer-Porter", "Medicare", 44614.15863,462,"Emergency","3/5/2024","Ibuprofen","Abnormal"
-"Pamela Hall",60,Male,"A+","Asthma","11/16/2023", "Jane Williams", "Rivera-Gutierrez", "UnitedHealthcare", 40281.42185,286,"Emergency","12/20/2023","Paracetamol","Inconclusive"
-"Denise Reed",32,Female,"AB+", "Hypertension","6/26/2024", "Janet Hill",  "Powell-Robinson and Valdez", "Cigna", 46350.64469,281,"Urgent","7/30/2024","Simvastatin","Normal"
-"Stacey Johnson",64,Male,"O-", "Obesity","1/20/2024", "Candace Walker", "Hernandez-Rodriguez and Adams", "Aetna", 37323.44114,458,"Emergency","2/19/2024","Lipitor","Abnormal"
-"Janice Murphy",46,Female,"A-","Cancer","10/25/2023", "Connie Jackson", "Johnson-Fletcher", "UnitedHealthcare", 34561.64477,285,"Urgent","11/28/2023","Aspirin","Inconclusive"
-"Joyce Thompson",38,Male,"AB-", "Diabetes","5/29/2023", "Jessica Lewis",  "Powell-Robinson and Valdez", "Cigna", 29189.13398,219,"Elective","7/4/2023","Paracetamol","Normal"
-"Hazel Brooks",52,Female,"O+","Asthma","3/15/2023","Debra Brown", "Schaefer-Porter", "Medicare", 39116.11138,399,"Emergency","4/16/2023","Simvastatin","Abnormal"
-"Tammy Reed",49,Male,"A-", "Hypertension","9/17/2024", "Dorothy Mitchell", "Kim Inc", "UnitedHealthcare", 42985.15455,235,"Urgent","10/24/2024","Ibuprofen","Inconclusive"
-"Virginia Johnson",35,Female,"AB+", "Obesity","7/8/2023", "Eileen Walker", "Hernandez-Rogers and Vang", "Cigna", 31740.41133,247,"Emergency","8/2/2023","Lipitor","Abnormal"
-"Ashley Lopez",78,Male,"O-","Asthma","12/26/2023", "Pamela Jenkins", "Rivera-Gutierrez", "Medicare", 45940.43373,410,"Urgent","1/30/2024","Paracetamol","Normal"
-"Kristin Taylor",58,Female,"A+","Cancer","1/1/2024", "Kimberly Hall", "Johnson-Fletcher", "UnitedHealthcare", 40370.15332,451,"Emergency","1/31/2024","Aspirin","Inconclusive"
-"Milda Martin",64,Male,"AB+", "Hypertension","4/20/2024", "Nancy Stewart", "Powell-Robinson and Valdez", "Aetna", 40576.15291,203,"Elective","5/29/2024","Simvastatin","Abnormal"
-"Rosine White",70,Female,"A-", "Obesity","8/26/2024", "Rhonda Thompson", "Hernandez-Rogers and Vang", "Cigna", 32659.15298,439,"Urgent","9/29/2024","Ibuprofen","Normal"
-"Gilda Wilson",69,Male,"O+","Diabetes","12/24/2023", "Dotty Brown",  "Schaefer-Porter", "Aetna", 34231.51119,453,"Emergency","1/29/2024","Lipitor","Inconclusive"
-"Leona Chandler",56,Female,"AB-", "Asthma","3/27/2024", "Bobbie Hunter", "Rivera-Gutierrez", "Medicare", 43615.14183,273,"Urgent","4/26/2024","Paracetamol","Abnormal"
-"Angela Hernandez",41, Male,"A+","Hypertension","10/20/2023", "Amber Kim",  "Hernandez-Rodriguez and Adams", "Cigna", 29053.43973,296,"Elective","11/26/2023","Ibuprofen","Normal"
-"Lisa Howard",33,Female,"O+", "Cancer","9/27/2024", "Monica Pierce", "Kim Inc", "Aetna", 39253.15367,264,"Emergency","10/28/2024","Aspirin","Inconclusive"
-"Cindy Sanchez",52,Male,"AB-", "Diabetes","6/15/2024", "Wanda Harrison", "Powell-Robinson and Valdez", "UnitedHealthcare", 39303.13529,236,"Urgent","7/9/2024","Simvastatin","Abnormal"
-"Tiffany Hill",66,Female,"A-","Asthma","7/25/2023", "Edith Reed", "Hernandez-Rogers and Vang", "Medicare", 42419.11265,184,"Emergency","8/22/2023","Paracetamol","Normal"
-"Judith Bennett",31,Male,"O-", "Hypertension","1/16/2025", "Joyce Mills", "Johnson-Fletcher", "Aetna", 36787.13343,441,"Elective","2/19/2025","Lipitor","Inconclusive"
-"Lila Jenkins",63,Female,"AB+", "Obesity","2/22/2024", "Betty Moore", "Schaefer-Porter", "UnitedHealthcare", 41624.14293,445,"Urgent","3/25/2024","Simvastatin","Normal"
-"Flossie Watts",21,Male,"A+","Cancer","8/27/2024","Kathryn Simmons", "Rivera-Gutierrez", "Cigna", 40752.14905,255,"Emergency","9/24/2024","Paracetamol","Abnormal"
-"Blossom Rodriguez",61,Female,"O-","Diabetes","12/21/2024", "Rosemary Lee", "Hernandez-Rogers and Vang", "Medicare", 46948.15369,421,"Urgent","1/25/2025","Lipitor","Inconclusive"
-"Violet Simpson",63,Male,"AB+", "Asthma","10/20/2024","Loretta Allen", "Powell-Robinson and Valdez", "UnitedHealthcare", 33492.15315,203,"Elective","11/23/2024","Simvastatin","Abnormal"
-"Della Scott",66,Female,"A-","Hypertension","6/9/2024", "Marilyn McHugh", "Johnson-Fletcher", "Aetna", 39748.11275,264,"Urgent","7/6/2024","Aspirin","Normal"
-"Dorothy Webb",68,Male,"O+","Obesity","5/8/2023", "Glenda Brown", "Schaefer-Porter", "Medicare", 39822.12237,397,"Emergency","6/3/2023","Ibuprofen","Inconclusive"
-"Shirley Wilkins",72,Female,"AB-", "Diabetes","1/23/2024", "Gail Brown",  "Rivera-Gutierrez", "UnitedHealthcare", 37467.43215,262,"Urgent","2/26/2024","Paracetamol","Normal"
-"Gwen Lopez",57,Male,"A+","Asthma","9/12/2024", "Amber Jenkins", "Powell-Robinson and Valdez", "Aetna", 36853.15986,248,"Emergency","10/18/2024","Lipitor","Abnormal"
-"Norma Foster",55,Female,"O-", "Hypertension","2/9/2024", "Jenny Russell", "Hernandez-Rogers and Vang", "Medicare", 34193.16233,393,"Elective","3/13/2024","Simvastatin","Inconclusive"
-"Evelyn Weaver",26,Male,"AB+", "Obesity","6/18/2024", "Tabitha Allen", "Kim Inc", "Cigna", 35458.15254,464,"Urgent","7/23/2024","Aspirin","Abnormal"
-"Amy Patterson",79,Female,"O+","Diabetes","10/21/2023", "Samantha Turner", "Schaefer-Porter", "UnitedHealthcare", 36064.14575,361,"Emergency","11/24/2023","Paracetamol","Normal"
-"Deanna Watts",44,Male,"A-", "Cancer","4/25/2023", "Kimberly Shelton", "Hernandez-Rogers and Vang", "Medicare", 42334.14469,406,"Urgent","5/31/2023","Ibuprofen","Abnormal"
-"Gwendolyn Edwards",38,Female,"AB+", "Asthma","7/31/2023","Laura Lee", "Johnson-Fletcher", "Aetna", 29373.13967,292,"Emergency","8/31/2023","Lipitor","Inconclusive"
-"Blanche Harris",42,Male,"O-", "Hypertension","12/1/2023", "Veronica Garcia", "Powell-Robinson and Valdez", "UnitedHealthcare", 39075.14357,356,"Urgent","1/9/2024","Paracetamol","Normal"
-"Geraldine Collins",62,Female,"A+","Obesity","5/27/2024", "Norma Warner", "Schaefer-Porter", "Medicare", 36179.14459,384,"Emergency","6/26/2024","Ibuprofen","Abnormal"
-"Iva Watson",74,Male,"AB+", "Diabetes","8/10/2024", "Lois Brown", "Rivera-Gutierrez", "UnitedHealthcare", 42256.14892,246,"Elective","9/11/2024","Simvastatin","Inconclusive"
-"Wilma Douglas",56,Female,"O-", "Cancer","11/18/2023","Bettyann Harris", "Kim Inc", "Aetna", 33816.43781,292,"Urgent","12/31/2023","Lipitor","Normal"
-"Maude Armstrong",36,Male,"A-","Asthma","2/18/2024", "Doris Hernandez", "Powell-Robinson and Valdez", "Medicare", 31102.12889,376,"Emergency","3/27/2024","Paracetamol","Abnormal"
-"Judy Singleton",57,Female,"AB+", "Hypertension","10/11/2023", "Rebecca Warren", "Hernandez-Rogers and Vang", "UnitedHealthcare", 40347.14635,296,"Elective","11/26/2023","Ibuprofen","Inconclusive"
-"Noel Mason",67,Male,"O+","Obesity","3/18/2024", "Evelyn Barnes", "Schaefer-Porter", "Aetna", 37893.17644,357,"Urgent","4/28/2024","Simvastatin","Abnormal"
-"Fern Mitchell",44,Female,"A-", "Diabetes","8/28/2023", "Vera Dawson", "Rivera-Gutierrez", "Medicare", 37914.47672,234,"Emergency","9/28/2023","Aspirin","Normal"
-"Doris Watson",65,Male,"AB-", "Asthma","12/27/2023", "Myrtle Carter", "Powell-Robinson and Valdez", "Cigna", 46792.14223,284,"Urgent","1/31/2024","Lipitor","Inconclusive"
-"Maxine Adams",41,Female,"O+", "Hypertension","7/24/2023", "Ruth McDonald", "Kim Inc", "UnitedHealthcare", 38789.35468,401,"Elective","8/27/2023","Ibuprofen","Normal"
-"Hermina Lee",54,Male,"A-", "Cancer","4/30/2024", "Jessica Hall",  "Hernandez-Rodriguez and Adams", "Medicare", 38435.15515,235,"Emergency","5/21/2024","Paracetamol","Abnormal"
-"Louise Bennett",73,Female,"AB+", "Obesity","12/24/2023", "Harriet Brooks", "Johnson-Fletcher", "UnitedHealthcare", 40862.17535,397,"Urgent","1/28/2024","Simvastatin","Inconclusive"
-"Anita Reed",39,Male,"O+", "Diabetes","5/13/2024", "Bernadette Williams", "Schaefer-Porter", "Cigna", 32586.14446,231,"Emergency","6/15/2024","Lipitor","Normal"
-"Nellie Johnson",36,Female,"A-", "Asthma","10/30/2023", "Barbara Hughes", "Powell-Robinson and Valdez", "Aetna", 44975.14536,369,"Elective","11/29/2023","Aspirin","Abnormal"
-"Miriam Anderson",66,Male,"AB-", "Hypertension","9/26/2023", "Dorothy Jenkins", "Rivera-Gutierrez", "UnitedHealthcare", 43664.14502,290,"Urgent","10/25/2023","Paracetamol","Inconclusive"
-"Doreen Ward",69,Female,"O+", "Obesity","3/10/2024", "Arline Thompson", "Hernandez-Rogers and Vang", "Medicare", 44943.14853,388,"Emergency","4/15/2024","Simvastatin","Normal"
-"Velma Willis",40,Male,"A-", "Cancer","7/6/2024","Monica Brooks", "Kim Inc", "Cigna", 42307.14341,243,"Urgent","8/8/2024","Lipitor","Abnormal"
-"Wilhelmina Reed",48,Female,"AB+", "Asthma","4/7/2023", "Myrtle Adams", "Powell-Robinson and Valdez", "UnitedHealthcare", 39867.16493,219,"Emergency","5/6/2023","Aspirin","Inconclusive"
-"Paulina Brooks",67,Male,"O-", "Diabetes","12/12/2023", "Ida Harrison", "Schaefer-Porter", "Aetna", 46621.14751,376,"Urgent","1/16/2024","Paracetamol","Normal"
-"Eleanor Griffin",53,Female,"A+", "Hypertension","11/18/2023","Gladys Cook", "Rivera-Gutierrez", "Medicare", 32268
+Thomas,52,Male,B+,Cancer,7/22/2019,Julia Harper,X-Ray Corporation,Blue Cross,11584.43259,412,Emergency,6/24/2023,Aspirin,Abnormal
+Brittany,73,Male,AB+,"Asthma",6/9/2022,Selena Hill,Miller Brothers,Medicare,44561.19649,362,Elective,6/25/2022,Ibuprofen,Normal
+Alex,62,Female,A-,Hypertension,5/16/2021,Samantha Jenkins,Henson-King,UnitedHealthcare,17482.92843,217,Urgent,6/15/2021,Ibuprofen,Inconclusive
+Kaylee,46,Male,AB-,Obesity,2/2/2018,Matthew Russell,Moreno Anderson,Medicare,49458.11165,213,Elective,2/16/2018,Paracetamol,Normal
+Elijah,59,Female,O+,Cancer,8/24/2019,Adam Kennedy,Heredia Adams,Cigna,24340.48921,405,Emergency,8/28/2019,Paracetamol,Inconclusive
+Steven,83,Female,AB+,Diabetes,10/25/2021,William Young,Nguyen-Lewis,Aetna,34671.52841,401,Urgent,10/31/2021,Penicillin,Abnormal
+Michael,88,Male,A+,Diabetes,11/20/2021,Emily Lee,Warren-Mendez,Medicare,41113.36209,433,Elective,12/4/2021,Lipitor,Abnormal
+Julia,79,Female,AB+,Asthma,1/31/2020,Ruben Lewis,White-Rodriguez,Cigna,16181.29565,431,Emergency,2/6/2020,Lipitor,Inconclusive
+Abigail,67,Male,B+,Hypertension,6/12/2020,Sophia Martin,Reed-Schwartz,Medicare,34926.98374,296,Urgent,6/17/2020,Paracetamol,Inconclusive
+Elijah,66,Female,AB+,Cancer,7/26/2018,Rachel Castro,Charles Phillips,UnitedHealthcare,46295.6614,314,Emergency,8/2/2018,Aspirin,Abnormal
+Emma,91,Female,A-,Diabetes,4/18/2022,Patrick Walker,Sanchez-Sanchez,Aetna,21921.84167,431,Urgent,5/2/2022,Ibuprofen,Normal
+Mia,69,Male,O+,Obesity,6/11/2021,Kimberly Lane,Caldwell-Levine,Aetna,38297.48921,391,Elective,6/18/2021,Lipitor,Abnormal
+Ethan,74,Male,AB+,Cancer,8/26/2022,Ashley Brooks,Robinson-Anderson,UnitedHealthcare,47431.11188,334,Emergency,9/1/2022,Penicillin,Normal
+Alexander,82,Female,A+,Asthma,4/29/2021,Noah Brown,perez-Ramirez,Aetna,49877.33265,423,Urgent,5/14/2021,Paracetamol,Inconclusive
+Oliver,79,Female,O+,Hypertension,7/13/2019,Aiden White,Contreras-Maynard,Medicare,44289.29587,403,Emergency,7/17/2019,Aspirin,Normal
+Charlotte,63,Female,AB+,Cancer,11/28/2022,James Johnson,Graves-Bernal,Aetna,35739.46952,437,Elective,12/3/2022,Paracetamol,Inconclusive
+Sofia,53,Male,A+,Obesity,6/9/2023,Kyle Harrison,Phillips-Patel,Cigna,48380.22334,286,Emergency,6/17/2023,Ibuprofen,Abnormal
+Evelyn,58,Female,AB+,Asthma,12/28/2018,Harper Patton,Escobar-Corning,Aetna,31312.34538,407,Emergency,1/3/2019,Penicillin,Abnormal
+Harrison,85,Male,AB+,Cancer,10/21/2019,Landon Zamora,Marquez-Beyer,Medicare,49510.34379,416,Emergency,11/1/2019,Aspirin,Normal
+Margaret,74,Male,AB-,Diabetes,3/28/2022,Josiah Pitts,Valdez-Rios,Blue Cross,37551.5558,408,Elective,3/30/2022,Ibuprofen,Inconclusive
+Andrew,67,Male,O+,Asthma,9/20/2021,Alina Berry,Choi-Sykes,Aetna,39170.13189,342,Elective,10/2/2021,Aspirin,Abnormal
+Emily,77,Male,AB+,Hypertension,12/22/2021,Fiona Santos,Oconnor-Stodder,Aetna,34569.46141,444,Urgent,12/24/2021,Paracetamol,Normal
+Charlotte,88,Female,AB+,Cancer,9/25/2019,Alan Cortez,Combs-Abbott,UnitedHealthcare,48293.42246,268,Emergency,10/4/2020,Ibuprofen,Inconclusive
+Daniel,67,Male,AB-,Diabetes,9/28/2021,Jessica Lucas,Bradshaw-Trujillo,Cigna,44438.43227,344,Emergency,10/5/2021,Penicillin,Abnormal
+Jackson,53,Male,A-,Hypertension,7/8/2023,Alan Patel,Carter-Jorge,Aetna,26188.22233,293,Urgent,7/24/2023,Ibuprofen,Inconclusive
+Logan,84,Male,B+,Asthma,7/17/2019,Leo Davis,Trujillo-Miranda,Cigna,35468.69517,420,Elective,7/29/2019,Paracetamol,Inconclusive
+Penelope,61,Male,AB+,Diabetes,12/17/2021,John Mclaughlin,Cantu-Sanchez,Aetna,43451.31158,312,Elective,12/24/2021,Lipitor,Abnormal
+Joseph,82,Female,AB-,Cancer,4/26/2022,Scarlett Brooks,Morrison-Sheldon,Cigna,49956.98287,449,Elective,5/6/2022,Ibuprofen,Normal
+Noah,69,Male,B+,Obesity,9/28/2019,Landon Duncan,Durham-Stevens,Medicare,44621.49219,287,Urgent,10/5/2019,Aspirin,Normal
+James,59,Female,A+,Diabetes,12/13/2018,Cedric Turner,Oconnor-Kitchens,Cigna,42412.34593,389,Emergency,1/19/2019,Penicillin,Inconclusive
+Olivia,60,Male,B+,Cancer,11/23/2022,Aditya Willis,Jones-Reimer,Blue Cross,29383.45683,407,Urgent,12/3/2022,Lipitor,Normal
+Joseph,81,Male,A+,Asthma,10/4/2022,Braelynn Morse,Slater-Ledbetter,Cigna,36917.21221,438,Emergency,10/28/2022,Paracetamol,Inconclusive
+Lucas,54,Male,AB+,Diabetes,9/22/2021,Gage Morse,Foster-Salazar,Medicare,46856.45333,233,Emergency,10/5/2021,Aspirin,Abnormal
+Elijah,93,Female,AB+,Hypertension,6/9/2023,Angel Vasquez,Sanchez-Guerrero,Aetna,39361.45693,286,Urgent,6/26/2023,Paracetamol,Abnormal
+Adeline,58,Male,AB-,Cancer,8/9/2022,Leon Todd,Scott-Concepcion,Blue Cross,44638.46767,256,Elective,9/3/2022,Paracetamol,Inconclusive
+Mason,71,Male,A+,Obesity,7/23/2021,Luke Warner,Patel-Davenport,Cigna,46093.49171,257,Urgent,8/5/2022,Ibuprofen,Abnormal
+William,55,Male,AB+,Diabetes,11/14/2019,Zayden Mcgill,Allen-Trujillo,Medicare,36237.35796,293,Emergency,12/3/2019,Ibuprofen,Inconclusive
+Mason,64,Male,AB-,Asthma,10/11/2020,Camila Velasquez,Cole-Stoy,Aetna,48139.33154,428,Elective,11/6/2020,Penicillin,Normal
+Penelope,93,Female,O+,Cancer,7/13/2020,Xavier Nunez,Cole-Foster,Aetna,29692.53195,223,Urgent,7/29/2020,Lipitor,Normal
+Haley,82,Female,B+,Obesity,9/24/2019,Tahlia Wheeler,Moreno-Jarvis,UnitedHealthcare,36347.53492,417,Elective,10/7/2020,Ibuprofen,Inconclusive
+Sophia,83,Male,O+,Asthma,8/22/2022,Trent Jenkins,Curry-Keeble,Medicare,46855.4232,324,Urgent,9/6/2022,Paracetamol,Abnormal
+Julia,86,Female,A-,Cancer,11/21/2019,Grayden Nguyen,Pierce-Sanchez,Medicare,44099.47194,249,Emergency,12/8/2019,Penicillin,Abnormal
+Alexander,85,Male,AB+,Hypertension,12/2/2021,James Russell,Rodriguez-Finn,Cigna,35264.47164,416,Elective,12/16/2021,Aspirin,Inconclusive
+Liam,71,Male,B+,Obesity,10/23/2021,Noah Sawyer,Brown-Mongold,Cigna,38274.56307,362,Elective,11/10/2021,Ibuprofen,Normal
+Austin,82,Male,AB+,Diabetes,3/25/2020,Ayden Chen,Cervantes-Gilliland,Aetna,49612.2218,276,Emergency,4/16/2020,Paracetamol,Abnormal
+Cooper,67,Male,A-,Cancer,6/20/2021,Landon Castro,Perry-Fahey,Medicare,37259.23262,417,Urgent,6/25/2021,Ibuprofen,Inconclusive
+Benjamin,85,Male,O+,Asthma,12/14/2020,Genesis Castro,Torres-Pacheco,Blue Cross,36255.34245,342,Elective,12/30/2020,Aspirin,Normal
+Harrison,73,Male,AB+,Hypertension,9/14/2021,Eliaz Mcgill,Acevedo-Acosta,Cigna,43363.42315,282,Elective,10/14/2021,Penicillin,Abnormal
+Penelope,65,Male,B+,Obesity,6/8/2023,Kallan Rios,Robertson-Lucero,Aetna,40836.42474,433,Urgent,6/17/2023,Paracetamol,Inconclusive
+Anna,98,Male,A+,Asthma,11/20/2022,Kai Warren,Padilla-Skidmore,Blue Cross,47417.42495,251,Emergency,12/3/2022,Aspirin,Abnormal
+Julian,70,Male,A-,Cancer,5/21/2022,Sophia Deleon,Brown-England,UnitedHealthcare,43079.23268,238,Elective,6/4/2022,Ibuprofen,Abnormal
+Evie,60,Male,AB+,Diabetes,3/24/2022,Xander Harris,Mullins-Franklin,Cigna,39773.47467,433,Emergency,4/16/2022,Paracetamol,Inconclusive
+Reagan,74,Male,AB+,Obesity,6/10/2021,David Pierce,Abney-Tran,Blue Cross,45181.45367,262,Elective,6/21/2021,Penicillin,Normal
+Evelyn,58,Female,AB+,Hypertension,9/9/2022,Julian Brown,Kemp-Weber,Medicare,40755.53144,403,Emergency,9/22/2022,Ibuprofen,Inconclusive
+Ethan,62,Male,AB+,Diabetes,12/12/2020,Joseph Nguyen,Mack-Campbell,Medicare,38618.49288,443,Emergency,12/26/2020,Lipitor,Abnormal
+Sophia,53,Female,B+,Asthma,11/5/2019,Jaydan Spears,Carver-Gallagher,Aetna,45256.49358,308,Urgent,12/9/2019,Ibuprofen,Abnormal
+Kayla,64,Male,AB+,Obesity,8/16/2021,Tony Dejesus,Carter-Martinez,UnitedHealthcare,44443.33334,287,Elective,8/29/2021,Paracetamol,Normal
+Emily,82,Male,AB+,Hypertension,11/28/2019,Noah Guerra,Sanchez-Curry,UnitedHealthcare,32519.45147,242,Urgent,12/17/2019,Paracetamol,Inconclusive
+Luke,88,Male,B-,Asthma,6/10/2023,Juliana Lane,Powell-Brooks,Medicare,36196.49485,434,Emergency,6/24/2023,Ibuprofen,Inconclusive
+Eleanor,71,Male,AB+,Cancer,10/11/2022,Olivia Duncan,Harris-Nash,Aetna,48382.58358,322,Urgent,11/5/2022,Lipitor,Normal
+Ashley,99,Male,O+,Diabetes,9/7/2022,Ethan Sims,Martinez-Buck,UnitedHealthcare,44829.23447,299,Emergency,10/11/2022,Ibuprofen,Abnormal
+Elizabeth,64,Male,A-,Obesity,11/25/2021,Marcus Holmes,Stephens-Perez,Cigna,35519.43953,242,Elective,12/10/2021,Penicillin,Normal
+Liam,55,Male,AB+,Cancer,10/17/2019,Kendall Hart,Harper-Gutierrez,Medicare,46529.48542,237,Urgent,11/2/2019,Ibuprofen,Abnormal
+Margaret,79,Male,AB+,Diabetes,12/14/2022,Genesis Webb,Davidson-Brooks,Medicare,40553.43314,244,Elective,12/28/2022,Aspirin,Normal
+Kayla,78,Female,B-,Diabetes,6/11/2019,Adrian Luna,Sanchez-Graves,Medicare,40757.45528,393,Elective,7/1/2019,Penicillin,Abnormal
+Mia,97,Male,A+,Asthma,8/31/2021,Jayceon Fuentes,Mendez-Davenport,Cigna,46023.43184,396,Elective,9/14/2021,Paracetamol,Inconclusive
+Peter,60,Female,O+,Cancer,7/13/2021,Kai Murray,Nguyen-Oneill,UnitedHealthcare,37608.46443,264,Emergency,7/27/2021,Lipitor,Abnormal
+Julian,74,Male,AB+,Hypertension,3/31/2019,Bryson Sawyer,Walker-Pacheco,UnitedHealthcare,37313.49269,256,Urgent,4/29/2019,Penicillin,Inconclusive
+Penelope,95,Male,B+,Asthma,12/24/2020,Aaron Wheeler,Britton-Rehberg,Blue Cross,36782.51457,434,Elective,12/30/2020,Ibuprofen,Inconclusive
+Haley,98,Male,AB+,Diabetes,3/12/2022,Franklin Simmons,Mckee-Thompson,Blue Cross,35763.47561,428,Urgent,3/20/2022,Lipitor,Normal
+Ella,85,Female,AB+,Obesity,8/22/2022,Cooper Brown,Bullock-Rosas,Medicare,44241.3225,405,Elective,8/26/2022,Penicillin,Normal
+Julian,59,Female,O+,Hypertension,2/11/2022,Jayceon Harrison,Patel-Powell,Blue Cross,35071.43198,301,Elective,2/23/2022,Ibuprofen,Abnormal
+Eleanor,79,Male,AB-,Cancer,11/11/2022,Landon Bailey,Ortiz-Grosso,UnitedHealthcare,29947.48213,449,Emergency,11/23/2022,Penicillin,Abnormal
+Noah,92,Male,AB+,Asthma,11/28/2022,Kendal Kramer,Parker-Benson,Medicare,43354.46868,368,Emergency,12/2/2022,Lipitor,Normal
+Isabella,65,Male,A-,Diabetes,3/10/2020,Brody Cruz,Diaz-Howell,UnitedHealthcare,42673.46484,279,Emergency,4/12/2020,Aspirin,Abnormal
+Rowan,52,Female,B+,Cancer,12/27/2020,Ryan Patel,Bivins-Bailey,Blue Cross,30698.47106,413,Elective,12/31/2020,Ibuprofen,Inconclusive
+Mason,80,Male,AB+,Cancer,1/7/2021,Briar Garcia,Steele-Gagnon,Medicare,44544.44344,306,Emergency,1/19/2021,Paracetamol,Normal
+Eleanor,66,Male,O+,Hypertension,6/11/2022,Peyton Maynard,Brown-Chandler,Medicare,46039.42268,235,Elective,6/22/2022,Paracetamol,Inconclusive
+Emma,98,Female,AB+,Diabetes,4/22/2022,Jesus Ramirez,Matthews-Mendez,Medicare,42022.44736,245,Elective,4/29/2022,Aspirin,Abnormal
+Charlotte,76,Male,AB+,Obesity,3/4/2022,Harley Clements,Cervantes-Goss,Medicare,43197.32451,364,Emergency,3/10/2022,Lipitor,Inconclusive
+William,87,Male,B+,Cancer,7/11/2021,Emerson Aguilar,Bradley-Corral,Medicare,44370.45075,295,Elective,7/27/2021,Penicillin,Inconclusive
+Eleanor,84,Female,AB+,Asthma,5/17/2022,Kimberly Sparks,Hidalgo-Rosales,Aetna,37095.48939,249,Elective,5/27/2022,Paracetamol,Normal
+Julian,95,Male,AB+,Obesity,9/6/2022,Seth Ward,Mckinney-Brown,Medicare,40351.51459,229,Elective,9/19/2022,Paracetamol,Abnormal
+Kai,75,Male,AB+,Hypertension,1/16/2020,Braelynn Navarro,Garcia-Holt,Medicare,31071.51575,292,Urgent,1/28/2020,Lipitor,Abnormal
+Emily,64,Male,B+,Asthma,9/7/2022,Chloe Lee,Bradshaw-Bales,UnitedHealthcare,38185.56577,264,Emergency,9/25/2022,Penicillin,Inconclusive
+Elijah,80,Male,AB+,Diabetes,7/25/2021,Xzavier Rogers,Morgan-Bradley,Aetna,39885.53853,439,Urgent,7/31/2021,Ibuprofen,Normal
+Jacob,83,Male,A+,Diabetes,4/21/2021,Genesis Blevins,Nicholson-Fuentes,Cigna,43011.45332,253,Elective,4/27/2021,Lipitor,Abnormal
+Aiden,69,Male,AB-,Asthma,12/23/2022,Noah Chen,Brittany-Reyes,UnitedHealthcare,30364.54022,295,Elective,12/30/2022,Paracetamol,Normal
+Margot,63,Male,AB+,Cancer,1/11/2023,Julian Cooper,Pacheco-Reilly,Medicare,48971.49485,415,Elective,1/22/2023,Ibuprofen,Abnormal
+Peyton,97,Male,O+,Hypertension,8/17/2022,Kaylee Harrison,Mendez-Combs,Aetna,45732.53524,422,Elective,8/26/2022,Paracetamol,Normal
+Liam,69,Female,A+,Obesity,11/24/2021,Peyton Reed,Orozco-Fiore,UnitedHealthcare,41223.48943,234,Elective,12/10/2021,Penicillin,Normal
+Emily,75,Male,A+,Cancer,6/15/2022,Julisa Garcia,Tackett-Cook,UnitedHealthcare,46541.51648,391,Elective,6/30/2022,Ibuprofen,Inconclusive
+Emily,93,Male,AB+,Asthma,9/1/2022,Kai Brooks,Guerrero-Sanford,Aetna,37977.52351,287,Elective,9/16/2022,Aspirin,Abnormal
+Avery,94,Male,O+,Diabetes,2/5/2023,Carolyn Brown,Green-Weber,Aetna,47961.46395,301,Elective,2/15/2023,Penicillin,Abnormal
+Isabella,87,Female,AB+,Cancer,8/27/2020,Kevin Lewis,Reynolds-Martinez,Blue Cross,40869.49624,248,Emergency,9/5/2020,Lipitor,Abnormal
+Jaxon,97,Male,A+,Obesity,4/18/2022,Jaden Farias,Lopez-Aguilar,Medicare,42002.43049,276,Emergency,5/1/2022,Penicillin,Inconclusive
+Carter,79,Male,AB+,Hypertension,5/3/2022,Sawyer Hawkins,Gonzalez-Durham,Medicare,33492.53268,224,Elective,5/17/2022,Paracetamol,Normal
+Julian,89,Male,B+,Asthma,4/28/2023,Kai Hall,Thomas-Calderon,Medicare,36285.45385,372,Emergency,5/1/2023,Ibuprofen,Inconclusive
+Ashley,64,Male,AB+,Cancer,9/10/2021,Leon Sanchez,Harper-Trujillo,Aetna,43363.42468,281,Elective,9/22/2021,Penicillin,Abnormal
+Julian,98,Female,A+,Diabetes,11/15/2022,Noah Crawford,Lofton-Keene,Medicare,32475.45652,356,Urgent,12/1/2022,Aspirin,Inconclusive
+Julian,86,Male,AB+,Asthma,6/29/2022,Jeremy Holmes,Mora-Hatfield,Aetna,30106.43547,428,Elective,7/7/2022,Paracetamol,Abnormal
+Penelope,61,Female,O+,Diabetes,5/31/2023,Miles Nelson,Montoya-Kastner,Blue Cross,45385.52966,403,Emergency,6/6/2023,Ibuprofen,Inconclusive
+Avery,53,Male,B+,Hypertension,6/20/2022,Kai Sanchez,Hernandez-Penland,UnitedHealthcare,40929.49258,244,Urgent,6/27/2022,Penicillin,Abnormal
+Noah,76,Male,AB+,Asthma,4/12/2022,Quinlan Padilla,Gwin-Ortiz,Medicare,38071.43288,229,Elective,4/22/2022,Lipitor,Normal
+Emily,63,Female,A+,Obesity,6/2/2023,Camila Martin,Garcia-Stone,Medicare,45091.46803,361,Urgent,6/17/2023,Aspirin,Abnormal
+Ethan,95,Male,AB+,Cancer,1/28/2023,Victor Brooks,Alvarez-Murrell,Medicare,49243.53466,346,Emergency,1/31/2023,Paracetamol,Inconclusive
+Sofia,97,Male,AB+,Asthma,11/13/2022,Noah Sanchez,Phillips-Proctor,UnitedHealthcare,38185.49146,439,Elective,11/25/2022,Ibuprofen,Abnormal
+Eleanor,94,Female,A-,Diabetes,6/28/2022,Troy Pitts,Rocha-Rocha,Medicare,40291.44414,262,Elective,7/3/2022,Paracetamol,Normal
+Emerson,81,Male,AB+,Obesity,7/8/2022,Maddox Pierce,Figueroa-Sayre,UnitedHealthcare,43413.47842,221,Elective,7/24/2022,Paracetamol,Inconclusive
+Margot,73,Male,AB+,Cancer,8/29/2022,Sutton Manning,Colón-Butler,Medicare,39255.52404,279,Emergency,9/7/2022,Ibuprofen,Abnormal
+Jaxon,65,Male,A+,Hypertension,5/19/2023,Bryson Reynolds,Cole-Agnes,UnitedHealthcare,42159.48255,326,Emergency,6/2/2023,Aspirin,Abnormal
+Julian,63,Male,O+,Asthma,10/26/2020,Kimberly Walker,Wilkins-Reza,UnitedHealthcare,46191.43347,410,Urgent,11/3/2020,Ibuprofen,Normal
+Carter,62,Male,AB+,Diabetes,1/22/2022,Asha Wilkerson,Hodge-Brooks,UnitedHealthcare,46555.38457,244,Elective,2/3/2022,Lipitor,Abnormal
+Olivia,78,Male,AB+,Cancer,8/4/2021,Ethan Naranjo,Conner-Guerrero,Blue Cross,35192.48347,310,Emergency,8/19/2021,Penicillin,Inconclusive
+Julian,58,Male,B+,Asthma,8/26/2023,Jace Garrett,McCoy-Reyes,UnitedHealthcare,42760.46511,247,Emergency,8/31/2023,Ibuprofen,Normal
+Charlotte,98,Female,AB+,Hypertension,4/18/2022,Noah Nguyen,Weiss-Willett,Medicare,37538.45765,273,Urgent,4/26/2022,Paracetamol,Inconclusive
+Sofia,90,Male,AB+,Obesity,10/19/2022,Frances Moreno,Gilliland-Romero,Blue Cross,29293.48593,246,Elective,10/27/2022,Penicillin,Abnormal
+Jaxon,96,Male,AB+,Diabetes,10/24/2020,Jayceon Patel,Mcpherson-Sandoval,Aetna,34116.45065,382,Elective,11/5/2020,Ibuprofen,Abnormal
+Cameron,76,Male,O+,Hypertension,12/30/2022,Sawyer Reyes,Cantu-Torres,Aetna,40461.48028,395,Elective,1/12/2023,Ibuprofen,Normal
+Jace,54,Male,AB+,Asthma,4/21/2020,Fish Brown,Gray-Ayala,Aetna,35945.4888,254,Emergency,5/4/2020,Lipitor,Abnormal
+Julian,84,Male,A+,Cancer,8/16/2023,Sawyer Lopez,Davenport-Jeffres,Medicare,39221.52261,365,Elective,8/21/2023,Ibuprofen,Normal
+Julian,95,Male,AB+,Asthma,5/8/2023,Jayceon Morgan,Ryan-Griffin,Blue Cross,40360.46421,238,Emergency,5/24/2023,Paracetamol,Abnormal
+Emily,81,Male,AB+,Hypertension,8/29/2022,Adalyn Tran,Valencia-Brown,UnitedHealthcare,31177.49652,258,Emergency,9/3/2022,Penicillin,Normal
+Noah,98,Male,O+,Cancer,12/8/2022,Leah Arnold,Sabrina-Carroll,Medicare,34238.44161,321,Elective,12/13/2022,Lipitor,Abnormal
+Oliver,77,Male,AB-,Diabetes,7/4/2022,Emma Wilson,Hailey-Schwartz,Medicare,47965.49565,275,Emergency,7/25/2022,Aspirin,Inconclusive
+Evelyn,59,Male,B+,Asthma,6/30/2022,Jaiden Richardson,Powell-Fiore,UnitedHealthcare,37313.49745,306,Elective,7/8/2022,Ibuprofen,Abnormal
+Adam,86,Female,A+,Obesity,11/15/2022,Miles Wells,West-Ramsey,Medicare,40818.43322,368,Elective,12/2/2022,Penicillin,Abnormal
+Seth,49,Male,O+,Cancer,3/9/2023,Alastair Smith,Branch-Ramos,Aetna,43643.54693,314,Emergency,3/11/2023,Paracetamol,Inconclusive
+Sophia,89,Female,AB+,"Asthma",12/21/2022,Mathias Santos,Velez-Aguilar,Aetna,32573.44478,240,Elective,12/27/2022,Ibuprofen,Abnormal
+Angel,65,Male,AB+,Diabetes,3/12/2023,Salma Silva,Conover-Saad,Medicare,47239.45947,397,Elective,3/17/2023,Lipitor,Normal
+Julian,94,Male,A+,Cancer,8/19/2023,Noah Tran,Ricks-Deleon,Medicare,44668.46658,253,Emergency,9/3/2023,Lipitor,Abnormal
+Gage,62,Female,B-,Asthma,12/21/2020,Makena Cooper,Campbell-Cotton,Cigna,42747.51044,246,Emergency,12/28/2020,Penicillin,Normal
+Emily,63,Male,AB+,Hypertension,6/3/2023,Emma Lopez,Sims-Butler,Cigna,42919.48434,259,Emergency,6/17/2023,Paracetamol,Inconclusive
+Mia,83,Female,O+,Diabetes,10/16/2022,Kailyn Fuentes,Collins-Swedish,UnitedHealthcare,38438.46959,224,Emergency,10/20/2022,Aspirin,Inconclusive
+Kai,75,Male,A+,Obesity,4/16/2022,Genesis Parker,Larkin-Kennedy,Medicare,37449.44772,294,Emergency,5/2/2022,Penicillin,Abnormal
+Julian,88,Male,B+,Asthma,3/22/2023,Kimberly Brooks,Rosas-Cohen,Blue Cross,33576.4487,253,Emergency,4/2/2023,Ibuprofen,Normal
+Charlotte,76,Female,AB+,Hypertension,11/9/2022,Sawyer Patton,Martinez-Knight,Medicare,34183.46226,356,Emergency,11/22/2022,Lipitor,Inconclusive
+Jaxon,83,Male,AB+,Cancer,11/17/2022,Kai Warren,Hubbard-Pass,Cigna,39986.55354,246,Emergency,11/28/2022,Paracetamol,Normal
+Liam,62,Male,A+,Diabetes,5/9/2022,Angus Lewis,Martinez-Manning,Cigna,43418.46984,270,Elective,5/17/2022,Aspirin,Abnormal
+Ethan,70,Male,AB+,Obesity,3/2/2023,Julia Estrada,Davenport-Ponder,Blue Cross,35084.4574,296,Emergency,3/10/2023,Ibuprofen,Inconclusive
+Isabella,52,Female,B+,Asthma,10/19/2020,Austin Sanchez,Mcconnell-Gunn,UnitedHealthcare,37793.45765,245,Elective,11/1/2020,Ibuprofen,Abnormal
+Julian,93,Male,AB+,Diabetes,5/1/2023,Sawyer Patton,Colmenero-Ray,Cigna,44289.46381,406,Elective,5/10/2023,Ibuprofen,Abnormal
+Peyton,85,Female,AB+,Cancer,6/28/2020,Ruairi Nelson,King-Walker,Cigna,40294.45386,411,Elective,7/4/2020,Ibuprofen,Abnormal
+Abigail,60,Male,AB+,Asthma,9/15/2022,Landon Wallace,Ward-Coleman,UnitedHealthcare,38086.41729,223,Elective,9/24/2022,Penicillin,Inconclusive
+Liam,97,Male,O+,Hypertension,9/11/2022,Kai Tran,Garrett-Rosa,Blue Cross,37365.45599,297,Urgent,9/18/2022,Lipitor,Abnormal
+Sofia,61,Male,AB+,Obesity,11/7/2022,Landon Villanueva,Castro-Riley,UnitedHealthcare,45334.44459,344,Elective,11/20/2022
